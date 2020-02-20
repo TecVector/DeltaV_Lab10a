@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+html {
+    height: 100%;
+}
+
+body {
+    margin: 5px 25% 25px 25%;
+}
+
+header {
+    height: 60px;
+}
+
+.left-float {
+    float: left;
+}
+
+.right-float {
+    float: right;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.header-main-text {
+    font-family: 'Pacifico', cursive;
+    line-height: 0;
+    font-size: 40px;
+    margin: 22px 5px;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.tagline {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 13px;
+    margin: 0 7px;
+}
+
+.right-header-container {
+    float: right;
+}
+
+.header-logo {
+    float: left;
+    height: 60px;
+}
+
+.headline-with-subtext {
+    float: left;
+}
+
+.header-social-img {
+    height: 30px;
+    margin: 14px 0px;
+}
+
+.space-giver {
+    margin: 5px;
+}
+
+.imaged-hr {
+    display: block;
+    border: 0;
+    height: 10px;
+    background-image: url('/images/hr-img.png');
+    margin: 40px 0;
+}
+
+.print-selection {
+    text-align: right;
+}
+
+.tagline-holder {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+}
+
+.blog-main-image {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.blog-header {
+    font-size: 45px;
+    margin-bottom: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.blog-text-holder p {
+    text-indent: 40px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    margin: 35px 0;
+    color: #2d4267;
+}
+
+.ingredients-list {
+    background-image: url(/images/list-bg.png);
+    width: 100%;
+    background-size: cover;
+    height: 300px;
+    background-position: bottom;
+    color: #2d4267;
+}
